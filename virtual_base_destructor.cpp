@@ -51,7 +51,7 @@ class base
     {
         cout<<"constructing base"<<endl;
     }
-    virtual ~base()
+    virtual ~base() //apparently virtual can only be applied to base class destructor
     {
         cout<<"destrucing base"<<endl;
     }
