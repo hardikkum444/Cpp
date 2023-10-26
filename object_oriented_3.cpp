@@ -19,3 +19,4 @@ int main()
 
 //so basically in the case of empty class, 1 byte of memory is allocated to 
 //the class object
+//important as an interview question
