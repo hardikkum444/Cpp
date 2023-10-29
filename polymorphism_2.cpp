@@ -1,4 +1,4 @@
-//prime exaple of operator overloading
+//prime example of operator overloading 
 
 #include <iostream>
 using namespace std;
