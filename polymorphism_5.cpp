@@ -41,3 +41,13 @@ int main()
 //there is clear distinction between the two funcitons and the derived class show gets called 
 
 //try using without the virtual function
+
+
+//rules of virtual functions 
+
+// 1) they cant be static in nature 
+// 2) they should be accessed using pointers or refernce of base class type
+
+// 3)they are always defined in base class and overidden in child class
+
+// 4)it is possible to have a virtual constructor but virtual destructor is not allowed
