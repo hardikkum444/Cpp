@@ -7,7 +7,7 @@ using namespace std;
 class A
 {
     public:
-    void show()
+    virtual void show()
     {
         cout<<"base class called"<<endl;
     }
@@ -18,7 +18,7 @@ class B : public A
     public:
     void show()
     {
-        cout<<"base class called"<<endl;
+        cout<<"derived class called"<<endl;
     }
 };
 
@@ -35,4 +35,9 @@ int main()
     
     bptr->show();
 }
-    
+
+
+//by using virtual keyword whilst defining the function, 
+//there is clear distinction between the two funcitons and the derived class show gets called 
+
+//try using without the virtual function
